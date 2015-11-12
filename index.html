@@ -2,24 +2,44 @@
   <head></head>
   <body>
     <h1>SERVIDOR DBL - BATTIELFIELD 4</h1>
-    <h2>ASSINATURA</h2>
-    <!-- INICIO FORMULARIO BOTAO PAGSEGURO -->
-    <form action="https://pagseguro.uol.com.br/v2/pre-approvals/request.html" method="post">
-    <!-- NÃO EDITE OS COMANDOS DAS LINHAS ABAIXO -->
-    <input type="hidden" name="code" value="64643B8FD6D6650664D14F91C4370AF4" />
-    <input type="image" src="https://p.simg.uol.com.br/out/pagseguro/i/botoes/assinaturas/209x48-assinar-assina.gif" name="submit" alt="Pague com PagSeguro - é rápido, grátis e seguro!" />
-    </form>
-    <!-- FINAL FORMULARIO BOTAO PAGSEGURO -->
-    <hr>
 
-    <h2>PAGAMENTO ÚNICO</h2>
-    <!-- INICIO FORMULARIO BOTAO PAGSEGURO -->
-    <form action="https://pagseguro.uol.com.br/checkout/v2/cart.html?action=add" method="post">
-    <!-- NÃO EDITE OS COMANDOS DAS LINHAS ABAIXO -->
-    <input type="hidden" name="itemCode" value="708A5D15A1A1DF13349B2F95C4F27E99" />
-    <input type="image" src="https://p.simg.uol.com.br/out/pagseguro/i/botoes/pagamentos/209x48-pagar-assina.gif" name="submit" alt="Pague com PagSeguro - é rápido, grátis e seguro!" />
-    </form>
-    <!-- FINAL FORMULARIO BOTAO PAGSEGURO -->
+    <fieldset>
+      <legend>PAGSEGURO - R$ 30,00</legend>
+
+      <h2>ASSINATURA</h2>
+      <!-- INICIO FORMULARIO BOTAO PAGSEGURO -->
+      <form action="https://pagseguro.uol.com.br/v2/pre-approvals/request.html" method="post">
+      <!-- NÃO EDITE OS COMANDOS DAS LINHAS ABAIXO -->
+      <input type="hidden" name="code" value="64643B8FD6D6650664D14F91C4370AF4" />
+      <input type="image" src="https://p.simg.uol.com.br/out/pagseguro/i/botoes/assinaturas/209x48-assinar-assina.gif" name="submit" alt="Pague com PagSeguro - é rápido, grátis e seguro!" />
+      </form>
+      <!-- FINAL FORMULARIO BOTAO PAGSEGURO -->
+      <hr>
+
+      <h2>PAGAMENTO ÚNICO</h2>
+      <!-- INICIO FORMULARIO BOTAO PAGSEGURO -->
+      <form action="https://pagseguro.uol.com.br/checkout/v2/cart.html?action=add" method="post">
+      <!-- NÃO EDITE OS COMANDOS DAS LINHAS ABAIXO -->
+      <input type="hidden" name="itemCode" value="708A5D15A1A1DF13349B2F95C4F27E99" />
+      <input type="image" src="https://p.simg.uol.com.br/out/pagseguro/i/botoes/pagamentos/209x48-pagar-assina.gif" name="submit" alt="Pague com PagSeguro - é rápido, grátis e seguro!" />
+      </form>
+      <!-- FINAL FORMULARIO BOTAO PAGSEGURO -->
+    </fieldset>
+
+    <br><br>
+
+    <fieldset>
+      <legend>MERCADO PAGO - R$ 30,00</legend>
+
+      <a mp-mode="dftl" href="https://www.mercadopago.com/mlb/checkout/start?pref_id=91312645-937a41be-744f-4703-9186-b7a949189a50" name="MP-payButton" class='blue-ar-l-rn-brall'>Pagar</a>
+      <script type="text/javascript">
+      (function(){function $MPBR_load(){window.$MPBR_loaded !== true && (function(){var s = document.createElement("script");s.type = "text/javascript";s.async = true;s.src = ("https:"==document.location.protocol?"https://www.mercadopago.com/org-img/jsapi/mptools/buttons/":"http://mp-tools.mlstatic.com/buttons/")+"render.js";var x = document.getElementsByTagName('script')[0];x.parentNode.insertBefore(s, x);window.$MPBR_loaded = true;})();}window.$MPBR_loaded !== true ? (window.attachEvent ?window.attachEvent('onload', $MPBR_load) : window.addEventListener('load', $MPBR_load, false)) : null;})();
+      </script>
+
+      <h2>QR CODE</h2>
+      <img src="images/mp-qrcode.png" alt="">
+
+    </fieldset>
 
   </body>
 </html>
