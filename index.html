@@ -1,45 +1,89 @@
 <html>
-  <head></head>
+  <head>
+
+    <title>Divisão de Blindados CLAN</title>
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.2/css/materialize.min.css">
+
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.2/js/materialize.min.js"></script>
+    <style>
+      .collapsible-body {
+        padding: 1em;
+        background: #efefef;
+      }
+    </style>
+  </head>
   <body>
     <h1>SERVIDOR DBL - BATTLEFIELD 4</h1>
 
-    <fieldset>
-      <legend>PAGSEGURO - R$ 30,00</legend>
+    <ul class="collapsible" data-collapsible="accordion">
+      <li>
+        <div class="collapsible-header">PAGSEGURO - R$ 30,00</div>
+        <div class="collapsible-body" style="padding: 1em;">
+          <h2>ASSINATURA</h2>
+          <!-- INICIO FORMULARIO BOTAO PAGSEGURO -->
+          <form action="https://pagseguro.uol.com.br/v2/pre-approvals/request.html" method="post">
+          <!-- NÃO EDITE OS COMANDOS DAS LINHAS ABAIXO -->
+          <input type="hidden" name="code" value="64643B8FD6D6650664D14F91C4370AF4" />
+          <input type="image" src="https://p.simg.uol.com.br/out/pagseguro/i/botoes/assinaturas/209x48-assinar-assina.gif" name="submit" alt="Pague com PagSeguro - é rápido, grátis e seguro!" />
+          </form>
+          <!-- FINAL FORMULARIO BOTAO PAGSEGURO -->
+          <hr>
 
-      <h2>ASSINATURA</h2>
-      <!-- INICIO FORMULARIO BOTAO PAGSEGURO -->
-      <form action="https://pagseguro.uol.com.br/v2/pre-approvals/request.html" method="post">
-      <!-- NÃO EDITE OS COMANDOS DAS LINHAS ABAIXO -->
-      <input type="hidden" name="code" value="64643B8FD6D6650664D14F91C4370AF4" />
-      <input type="image" src="https://p.simg.uol.com.br/out/pagseguro/i/botoes/assinaturas/209x48-assinar-assina.gif" name="submit" alt="Pague com PagSeguro - é rápido, grátis e seguro!" />
-      </form>
-      <!-- FINAL FORMULARIO BOTAO PAGSEGURO -->
-      <hr>
+          <h2>PAGAMENTO ÚNICO</h2>
+          <!-- INICIO FORMULARIO BOTAO PAGSEGURO -->
+          <form action="https://pagseguro.uol.com.br/checkout/v2/cart.html?action=add" method="post">
+          <!-- NÃO EDITE OS COMANDOS DAS LINHAS ABAIXO -->
+          <input type="hidden" name="itemCode" value="708A5D15A1A1DF13349B2F95C4F27E99" />
+          <input type="image" src="https://p.simg.uol.com.br/out/pagseguro/i/botoes/pagamentos/209x48-pagar-assina.gif" name="submit" alt="Pague com PagSeguro - é rápido, grátis e seguro!" />
+          </form>
+          <!-- FINAL FORMULARIO BOTAO PAGSEGURO -->
+        </div>
+      </li>
 
-      <h2>PAGAMENTO ÚNICO</h2>
-      <!-- INICIO FORMULARIO BOTAO PAGSEGURO -->
-      <form action="https://pagseguro.uol.com.br/checkout/v2/cart.html?action=add" method="post">
-      <!-- NÃO EDITE OS COMANDOS DAS LINHAS ABAIXO -->
-      <input type="hidden" name="itemCode" value="708A5D15A1A1DF13349B2F95C4F27E99" />
-      <input type="image" src="https://p.simg.uol.com.br/out/pagseguro/i/botoes/pagamentos/209x48-pagar-assina.gif" name="submit" alt="Pague com PagSeguro - é rápido, grátis e seguro!" />
-      </form>
-      <!-- FINAL FORMULARIO BOTAO PAGSEGURO -->
-    </fieldset>
+      <li>
+        <div class="collapsible-header">MERCADO PAGO - R$ 30,00</div>
+        <div class="collapsible-body" style="padding: 1em;">
 
-    <br><br>
+          <a mp-mode="dftl" href="https://www.mercadopago.com/mlb/checkout/start?pref_id=91312645-937a41be-744f-4703-9186-b7a949189a50" name="MP-payButton" class='blue-ar-l-rn-brall'>Pagar</a>
+          <script type="text/javascript">
+          (function(){function $MPBR_load(){window.$MPBR_loaded !== true && (function(){var s = document.createElement("script");s.type = "text/javascript";s.async = true;s.src = ("https:"==document.location.protocol?"https://www.mercadopago.com/org-img/jsapi/mptools/buttons/":"http://mp-tools.mlstatic.com/buttons/")+"render.js";var x = document.getElementsByTagName('script')[0];x.parentNode.insertBefore(s, x);window.$MPBR_loaded = true;})();}window.$MPBR_loaded !== true ? (window.attachEvent ?window.attachEvent('onload', $MPBR_load) : window.addEventListener('load', $MPBR_load, false)) : null;})();
+          </script>
 
-    <fieldset>
-      <legend>MERCADO PAGO - R$ 30,00</legend>
+          <hr>
 
-      <a mp-mode="dftl" href="https://www.mercadopago.com/mlb/checkout/start?pref_id=91312645-937a41be-744f-4703-9186-b7a949189a50" name="MP-payButton" class='blue-ar-l-rn-brall'>Pagar</a>
-      <script type="text/javascript">
-      (function(){function $MPBR_load(){window.$MPBR_loaded !== true && (function(){var s = document.createElement("script");s.type = "text/javascript";s.async = true;s.src = ("https:"==document.location.protocol?"https://www.mercadopago.com/org-img/jsapi/mptools/buttons/":"http://mp-tools.mlstatic.com/buttons/")+"render.js";var x = document.getElementsByTagName('script')[0];x.parentNode.insertBefore(s, x);window.$MPBR_loaded = true;})();}window.$MPBR_loaded !== true ? (window.attachEvent ?window.attachEvent('onload', $MPBR_load) : window.addEventListener('load', $MPBR_load, false)) : null;})();
-      </script>
+          <h2>QR CODE</h2>
+          <img src="images/mp-qrcode.png" alt="">
+        </div>
 
-      <h2>QR CODE</h2>
-      <img src="images/mp-qrcode.png" alt="">
+      </li>
 
-    </fieldset>
+      <li>
+        <div class="collapsible-header">PAYPAL - R$ 30,00</div>
+        <div class="collapsible-body" style="padding: 1em;">
+
+          <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+          <input type="hidden" name="cmd" value="_s-xclick">
+          <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----
+          ">
+          <input type="image" src="https://www.paypalobjects.com/pt_BR/BR/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - A maneira fácil e segura de enviar pagamentos online!">
+          <img alt="" border="0" src="https://www.paypalobjects.com/pt_BR/i/scr/pixel.gif" width="1" height="1">
+          </form>
+        </div>
+
+      </li>
+    </ul>
+
+    <script>
+      $(document).ready(function(){
+        $('.collapsible').collapsible({
+          accordion : true // A setting that changes the collapsible behavior to expandable instead of the default accordion style
+        });
+      });
+    </script>
 
   </body>
 </html>
